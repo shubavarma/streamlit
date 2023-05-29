@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 # if we want access local folder in deployment
 
 data_path = "data/"
-iris = pd.read_csv(data_path+"iris.csv")
+iris = pd.read_csv("Iris.csv")
 
 # We want to display our data in web application
 # st.dataframe()
